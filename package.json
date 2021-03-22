@@ -1,0 +1,78 @@
+{
+  "name": "a",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "commit": "git-cz",
+    "release-f": "standard-version -f",
+    "release-major": "standard-version -r major",
+    "release-minor": "standard-version -r minor",
+    "release-patch": "standard-version -r patch"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.0.0-beta.10",
+    "@better-scroll/mouse-wheel": "^2.0.0-beta.10",
+    "@better-scroll/scroll-bar": "^2.0.0-beta.10",
+    "axios": "^0.19.2",
+    "clipboard": "^2.0.6",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "good-storage": "^1.1.1",
+    "lodash-es": "^4.17.15",
+    "node-sass": "^4.14.1",
+    "vue": "^2.6.11",
+    "vue-lazyload": "^1.3.3",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.5.1",
+    "xgplayer": "^2.9.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "postcss-pxtorem": "^5.1.1",
+    "sass-loader": "^8.0.0",
+    "standard-version": "^8.0.2",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "workbox-webpack-plugin": "^5.1.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "description": "💐[预览地址](http://wangyiyun.nihaoa.icu/index.html)",
+  "main": "babel.config.js",
+  "author": "",
+  "license": "ISC"
+}
