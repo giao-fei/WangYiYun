@@ -46,7 +46,11 @@
 }
 // 允许外部在某个类下面覆写table样式
 @mixin el-table-theme($color, $stripe-color: var(--stripe-bg)) {
+<<<<<<< HEAD
   ::v-deep .el-table {
+=======
+  /deep/.el-table {
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
     @include el-td-style($color);
 
     tr.el-table__row--striped {
@@ -102,7 +106,11 @@ $input-height: 24px;
 
 // 外部覆写input-theme样式
 @mixin el-input-theme($color, $bg-color, $placeholder-color: $color) {
+<<<<<<< HEAD
   ::v-deep.el-input {
+=======
+  /deep/.el-input {
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
     @include el-input-style($color, $bg-color, $placeholder-color);
   }
 }

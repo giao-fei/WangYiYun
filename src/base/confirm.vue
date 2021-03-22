@@ -74,7 +74,11 @@ export const confirm = function(text, title, onConfirm = () => {}) {
 
 <style lang="scss" scoped>
 .confirm-dialog {
+<<<<<<< HEAD
   ::v-deep.el-dialog__body {
+=======
+  /deep/.el-dialog__body {
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
     padding-top: 20px;
     padding-bottom: 20px;
   }

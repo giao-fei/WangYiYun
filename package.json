@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "a",
+=======
+  "name": "vue-netease-music",
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -70,9 +74,13 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+<<<<<<< HEAD
   },
   "description": "💐[预览地址](http://wangyiyun.nihaoa.icu/index.html)",
   "main": "babel.config.js",
   "author": "",
   "license": "ISC"
+=======
+  }
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
 }

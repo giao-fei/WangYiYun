@@ -3,8 +3,12 @@ import { Loading } from "element-ui";
 import { confirm } from "@/base/confirm";
 import store from "@/store";
 
+<<<<<<< HEAD
 const BASE_URL = "https://api.mtnhao.com/";
 // const BASE_URL = "http://127.0.0.1:8080/";
+=======
+const BASE_URL = "http://wangyiyun.nihaoa.icu:8080/";
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
 //不带全局loading的请求实例
 export const requestWithoutLoading = createBaseInstance();
 //带全局loading的请求实例

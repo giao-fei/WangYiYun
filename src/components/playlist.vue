@@ -46,6 +46,10 @@
 <script>
 import { mapState, mapMutations, mapActions } from "@/store/helper/music"
 import SongTable  from "./song-table"
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
 export default {
   mounted () {
     // 点击需要保留播放器的dom

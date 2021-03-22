@@ -94,7 +94,11 @@ export default {
     padding: 0 28px;
     border-bottom: 1px solid var(--border);
     
+<<<<<<< HEAD
     ::v-deep.search-tab-item {
+=======
+    /deep/.search-tab-item {
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
       font-size: $font-size;
     }
   }

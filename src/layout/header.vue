@@ -101,7 +101,11 @@ export default {
     var(--header-input-placeholder-color)
   );
 
+<<<<<<< HEAD
   ::v-deep .iconfont {
+=======
+  /deep/.iconfont {
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
     color: var(--header-font-color);
   }
 

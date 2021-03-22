@@ -51,5 +51,9 @@ npm i
 npm run dev
 ```
 
+<<<<<<< HEAD
 ### 友情链接
 [mmPlayer](https://github.com/maomao1996/Vue-mmPlayer)
+=======
+
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b

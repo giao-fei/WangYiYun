@@ -26,7 +26,11 @@ export default {
   padding: 8px;
   font-size: $font-size-sm;
   cursor: pointer;
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
   div {
     flex-shrink: 0;
   }

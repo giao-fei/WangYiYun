@@ -11,7 +11,11 @@ module.exports = {
       //入口起点的最大体积
       maxEntrypointSize: 50000000000,
       //生成文件的最大体积
+<<<<<<< HEAD
       maxAssetSize: 30000000000,
+=======
+      maxAssetSize: 3000000000,
+>>>>>>> 78e033cdff57ee377dd0623faf2b3ad6c46a1e5b
       //只给出 js 文件的性能提示
       assetFilter: function(assetFilename) {
         return assetFilename.endsWith('.js');
